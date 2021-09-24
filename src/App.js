@@ -8,8 +8,8 @@ import index from './components/index'
 import PageNotFound from './components/PageNotFound';
 import Academic from './components/Academic';
 import Biography from './components/Biography';
-import Horror from './components/Horror';
-import Inspirational from './components/Inspirational';
+// import Horror from './components/Horror';
+// import Inspirational from './components/Inspirational';
 import Language from './components/Language';
 import Cart from './components/Cart';
 import React, {useState} from 'react';
@@ -116,12 +116,12 @@ function total1(){
           <Route exact path="/Horror" component={Horror}>
             <Horror add = {handleClicksum} sub ={handleClick} count ={count}> </Horror>
           </Route>
-          <Route exact path="/Inspirational" component={Inspirational}>
+          {/* <Route exact path="/Inspirational" component={Inspirational}>
             <Inspirational add= {handleClicksum} sub ={handleClick} count ={count}></Inspirational>
           </Route>
           <Route exact path="/Language" component={Language}>
             <Language add = {handleClicksum} sub ={handleClick} count ={count}></Language>
-          </Route>
+          </Route> */}
           <Route exact path="/Cart" component={Cart}>
             <Cart count1 ={count1} count = {count} pay = {pay} total={total1}></Cart>
           </Route>

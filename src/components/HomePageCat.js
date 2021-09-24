@@ -16,7 +16,7 @@ function HomePageCat() {
                                     <Link to={data.Catname} style={{ textDecoration: 'none' , color: 'black'}}>
                                         <div className="col m-6 border b-3">
                                             <h3 >{data.Catname}</h3>
-                                            <img className="img-fluid" src=  {data.img} alt="oops" />
+                                            <img className="img-fluid" src=  {data.img} alt="" />
                                     
                                         </div>
                                     </Link>
